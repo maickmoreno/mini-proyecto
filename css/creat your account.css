@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2? family= Inter:wght@400;500;700 & family= Poppins:wght@200 & family= Roboto+Condensed:ital,wght@ 0,700;1,400 & family= Source+Sans+Pro:wght@600 & display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(https://w0.peakpx.com/wallpaper/995/796/HD-wallpaper-black-dark-gradient-gray-leather-patterns-solid.jpg);
+}
+.form{
+    background-color:slategray;
+    padding: 3px;
+    font-size: 2rem;
+    font-family: 'Poppins',;
+    color:#212f3c;
+    text-align: center; 
+}
+.ccontainer{
+    padding: 15px;
+    width: 100%;
+}
+.container-input{
+    font-size: 22px;
+    color: #fff;
+    border-radius:  solid 1px darkslategrey;
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 95%;
+    
+}
+input [ype ="text"]{
+    font-size: 1.2rem;
+    font-family:serif;
+    border:none;
+    margin-left: 10px;
+    width: 95%;
+}
+input [ype ="tel"]{
+    font-size: 1.2rem;
+    font-family:serif;
+    border:none;
+    margin-left: 10px;
+    width: 95%;
+}
+input [ype ="email"]{
+    font-size: 1.2rem;
+    font-family:serif;
+    border:none;
+    margin-left: 10px;
+    width: 95%;
+}
+
+input [ype ="password"]{
+    font-size: 1.2rem;
+    font-family:serif;
+    border:none;
+    margin-left: 10px;
+    width: 95%;
+}
