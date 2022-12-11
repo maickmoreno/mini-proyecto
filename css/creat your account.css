@@ -5,6 +5,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     background-image: url(https://w0.peakpx.com/wallpaper/995/796/HD-wallpaper-black-dark-gradient-gray-leather-patterns-solid.jpg);
+    cursor: pointer;
 }
 .form{
     background-color:slategray;
@@ -21,12 +22,13 @@ h1{
     width: 100%;
 }
 .container-input{
+    background-color: #283747;
     font-size: 22px;
     color: #fff;
     border:solid 1px darkslategrey;
     margin-bottom: 15px;
     padding: 10px;
-    width: 95%;
+    width: 100%;
     
 }
 input [type ="text"]{
@@ -78,9 +80,6 @@ p{
     font-size: 1.3rem;
     font-family: sans-serif;
     text-align: center;  
-}
-a{
-    text-align: center;
 }
 .link{
     color: blue;
