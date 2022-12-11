@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="/css/login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="elegir"></div>
+                <button type="button"class="toggle-btn"onclick="login()">iniciar sesion</button>
+                <button type="button"class="toggle-btn"onclick="registar()">registar</button>
+            </div>
+            <div class="redes-sociales">
+                <a class="link"href="#3"><img src="/img/pinterest-1.svg" alt="icono-pinterest"></a>
+                <a class="link"href="#4"><img src="/img/facebook-3-2.svg" alt="icono-facebook"></a>
+                <a class="link"href="#5"><img src="/img/instagram-5.svg" alt="icono-instagram"></a>
+            </div>
+            <form id="login"class="input-group">
+                <input type="text"class="input-field"placeholder="Nombre Usuario"required>
+                <input type="password"class="input-field" placeholder="password"required>
+                <a class="link"href="#6"><input type="checkbox" class="check-box"></a><span>Recordar Contraseña.</span>
+                <a class="link"href="#7"><button type="submit" class="submith-btn">acceder</button></a>
+            </form>
+            <form id="registar"class="input-group">
+                <input type="text"class="input-field"placeholder="Nombre Usuario"required>
+                <input type="email"class="input-field"placeholder="@email"required>
+                <input type="password"class="input-field" placeholder="password"required>
+                <a class="link"href="#6"><input type="checkbox" class="check-box"></a><span><u>Acepto los terminos y condiciones.</u></span>
+                <a class="link"href="#7"><button type="submit" class="submith-btn">Registar</button></a>
+            </form>
+        </div>
+    </div>
+    <script>
+        var x =document.getElementById("login");
+        var y =document.getElementById("registar");
+        var z =document.getElementById("elegir");
+
+        function login(){
+            x.style.left="50px";
+            y.style.left="450px";
+            z.style.left="0px"
+        }
+        function registar(){
+            x.style.left="-400px";
+            y.style.left="50px";
+            z.style.left="120px"
+        }
+
+    </script>
+</body>
+</html>
