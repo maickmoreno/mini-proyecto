@@ -15,7 +15,7 @@
 }
 .form-box{
     width: 370px;
-    height: 455px;
+    height: 480px;
     position: relative;
     margin: 6% auto;
     background: #fff;
@@ -108,4 +108,13 @@ span{
 }
 #registar{
     left:450px ;
+}
+input[type="date" i] {
+    align-items: center;
+    display: inline-flex;
+    font-family:monospace;
+    padding-inline-start: 1px;
+    cursor: pointer;
+    overflow: hidden;
+    padding: 0px;
 }
