@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+
+
+*{
+box-sizing: border-box;/*para formatear el contenido*/
+margin: 0;
+padding: 0;
+font-size: 20px;
+    font-family: fantasy;
+    
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/fondo.jpg);
+}
+
+/*trabajando en el header padre*/
+.header{
+    box-shadow: 0 0 20px 9px #e0e0e0;
+    background:linear-gradient(to right,rgba(255, 152, 0, 0.7),rgba(0, 0, 0, 0.7));
+    color: aliceblue;
+    display: flex;
+    justify-content:flex-end;/*para separar lista ordenada*/
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+    
+}
+.header :hover{
+    border-bottom: 2px solid #ffccbc;
+    outline: none;
+    text-decoration: none;
+}
+/*darle estilo al logo*/
+.header .logo{
+    cursor: pointer;
+    order: 3;/*poner logo final de la derecha*/
+    margin-left: auto;
+    
+}
+/*slecion de la clase y la descripcion*/
+.header .logo img{
+height: 70px;
+width: auto;
+transition: all 0.3s;
+border-radius: 50px;
+
+}
+/*estilo hover en el logo*/
+.header .logo img:hover{
+transform: scale(1.2);
+}
+
+.header nav{
+    order: 1;
+
+}
+
+/*selecion de los links entro del nav y la etiqueta padre*/
+.header .nav-links{
+    text-decoration: none;
+    list-style: none;/*quitar subrayado*/   
+}
+.menu{
+    text-decoration: none;
+}
+/*efecto a luestra lista*/
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.header .nav-links li:nth-child(1){
+    padding:  0 20px 0 0 ;
+}
+/*selecion de las etiquetas ancla*/
+.header .nav-links a{
+    font-size: 700;
+    color: indianred;
+    text-decoration: none;/*quitar las lineas por debajo*/
+}
+
+.header .btn{
+    order: 2;
+}
+
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+.header .nav-links li a:hover{
+    color: #fff59d;
+}
+
+.header .btn button{
+    margin-left: 20px;
+    font-weight: 700;
+    color:  #1b3039;
+    padding: 9px 25px;
+    background-color: #fff59d;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+transition: all 0.3s ease 0;
+}
+
+.header .btn button:hover{
+    background-color: aqua;
+    color: #fff59d;
+    transform: scale(1.1);
+}
